@@ -9,14 +9,13 @@ from datetime import timedelta, date
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-cl = LineClient(authToken='EzONCbL8PcXnu9t9VjU0.cU7Vh9+BNRiLvWYab/HZSa.ajnGVCmde1qBF4qCSfQQKOHZ3Xh2dS9NAebOw2uv0QQ=')
-ki = LineClient(authToken='Ez3vJ9ImglTNVrJ6s0Se.HToKVq2HfYgSD3+50nTxZG.nRuLjebrLbIYfPpBD7MEDs0YwBcZ9lhGPLIA84DETlQ=')
-kk = LineClient(authToken='EzRb20XzQpOI03RDIqE6.LGYOZCcXuSaXbL4qKZVNnG.FKDGwRzpFmflJ3NaA+PDfP4PfbD1Urp60wOG/io6VA4=')
-kc = LineClient(authToken='EzSkx7SX0r82nsy2IQdd.xFIAru1RllLnrw0qjHgHVq.N88Xp+soc85z7qcYCnLxB+gdiQT2I7oscSbMv2LUulo=')
-ka = LineClient(authToken='EzLey9KaKHIl4Y0cUBRc.tfbkrPyIjShBSsQoRxWMda.I2BSE1uTJGtlMGj3l3FRIKuQeedJ5adCxNrOM68nc9M=')
-kh = LineClient(authToken='EzJ9E7F4fP58euGbybtb.xJtKQ7MgUYkiLRfyFCIkwW.UTKHuCBRFNllZJ+FD5P/YEJ5vaHrwRETo/mQvxLnD9k=')
-kw = LineClient(authToken='EzCjaJr0eAGQHl1Z1IEd.xYpzB82IKeNNt1hm8nOx7q.rwc39KXxQTDJd7PrHP3yRAbfMkGFG0k3XICRGSXsj/s=') #antijs
-sw = LineClient(authToken='EzztiJz6b8aukINAvhl0.3VJdtoW1MDg52sfHtGwmKa.P4gY2m91yDRhIOmrrivmq2JmFn6tTBZHKpFVqE5fUhI=') #ghost
+cl = LineClient(authToken='Ez8CgNPyxIh04iPbvrh4.KWC3slvoOQp5p0lxSCcora.w3tusUZPRKNlihOMP1FtLJH3fEA2gMo4CgTDI9rYnVQ=')
+ki = LineClient(authToken='EzC5jnuG9M3xr7vL6bB1.v+Z4wFoDINwWRHqGIVRRuq.ZUDKlou33KLcJw2u5EfliRWMWKldQRgeiAoi7iEOwsc=')
+kk = LineClient(authToken='EzJ9jJtdkH3VnKGmXT6b.QO2SHyOZ67WbzSXIUu4n2W.kNcAP6wA5Ovq9+7d6+Tr/wMSjca/59eAlJVxy7vU3ZI=')
+kc = LineClient(authToken='EzvS1xuMn4L2PyXBhnNb.l4h1kM7cO4Q9DPw/mEzLoW.tBG39CcNrirrXDTP72Q+AX5in1xRMaEb1qrCLnwE3yI=')
+ka = LineClient(authToken='EzeZgTTcrRhr1egiHoM1.Kr9t0qaJyMNXu5f5euvpSq.bpTkr2A3GIWhIzrpdhfj/P3aYcKnptghLvcVRC0Xeyo=')
+kh = LineClient(authToken='Ezz7LPTGvVQ43SqPC9Yb.LimrgPIMTusmr9SpKXAUsW.lpML0oK+ZFGWFzpP4+lITCouOoZPT93Cx2GrDDFTaZM=')
+kw = LineClient(authToken='Ez4XBPLqjnD6E5tN33t7.onpGZrCvHx5WRddLEcYNjW.jV/r8W6UXqVQqrqDdlRUv0276JpBexfQwxoZFXEUj2A=') #antijs
 #Ini Menggunakan Token Desktopmac
 #Jika Ingin Merubahny silahkan 
 #Tapi Jangan Lupa Rubah Pula La Dan Ua Nya
