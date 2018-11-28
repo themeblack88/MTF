@@ -12,23 +12,23 @@ from googletrans import Translator
 
 #===============================================================================================
 
-cl = LINE('Ezs9X5I3EKo2UcPaafI4.KWC3slvoOQp5p0lxSCcora.gc8wXdMugyw79nodmiIfijsPpmmEoruut13NEoMX3N4=')
+cl = LineClient(authToken='Ezs9X5I3EKo2UcPaafI4.KWC3slvoOQp5p0lxSCcora.gc8wXdMugyw79nodmiIfijsPpmmEoruut13NEoMX3N4=')
 cl.log("Auth Token : " + str(cl.authToken))
-ki = LINE('EzYvQho4vFMZ6DyuzPA1.v+Z4wFoDINwWRHqGIVRRuq.1RLMOb5hvR/8O4CyjaTKVKiYQSy6969ksLLsmC+cy1E=')
+ki = LineClient(authToken='EzYvQho4vFMZ6DyuzPA1.v+Z4wFoDINwWRHqGIVRRuq.1RLMOb5hvR/8O4CyjaTKVKiYQSy6969ksLLsmC+cy1E=')
 ki.log("Auth Token : " + str(ki.authToken))
-kk = LINE('EzUQFkGVR2fLh43ZNIeb.QO2SHyOZ67WbzSXIUu4n2W.K/JqmZPCibV7+GAZI8B1++gmvfoLHjJE43lKMkzGy4M=')
+kk = LineClient(authToken='EzUQFkGVR2fLh43ZNIeb.QO2SHyOZ67WbzSXIUu4n2W.K/JqmZPCibV7+GAZI8B1++gmvfoLHjJE43lKMkzGy4M=')
 kk.log("Auth Token : " + str(kk.authToken))
-kc = LINE('EzX249j5Z3gAQa4dhSob.l4h1kM7cO4Q9DPw/mEzLoW.Y23/at8gFIlSm8TTEUFIxE1rj7V9Ia5HLXAgqTiidCQ=')
+kc = LineClient(authToken='EzX249j5Z3gAQa4dhSob.l4h1kM7cO4Q9DPw/mEzLoW.Y23/at8gFIlSm8TTEUFIxE1rj7V9Ia5HLXAgqTiidCQ=')
 kc.log("Auth Token : " + str(kc.authToken))
-kb = LINE('EzwDsS5ESJ9KNViTVM11.Kr9t0qaJyMNXu5f5euvpSq.DM1Fh8Lv1UIj791mnXK17/nTFVJlDQgNUkp85gaEfe8=')
+kb = LineClient(authToken='EzwDsS5ESJ9KNViTVM11.Kr9t0qaJyMNXu5f5euvpSq.DM1Fh8Lv1UIj791mnXK17/nTFVJlDQgNUkp85gaEfe8=')
 kb.log("Auth Token : " + str(kb.authToken))
-sw = LINE('EzegPtS4cMZ0Dnzq6Nlb.LimrgPIMTusmr9SpKXAUsW.JvdJd645RtUgyQNffXvsJYJ10Wr/6EOWVwy5QtxGVho=')
+sw = LineClient(authToken='EzegPtS4cMZ0Dnzq6Nlb.LimrgPIMTusmr9SpKXAUsW.JvdJd645RtUgyQNffXvsJYJ10Wr/6EOWVwy5QtxGVho=')
 sw.log("Auth Token : " + str(sw.authToken))
 
 #===============================================================================================
 botStart = time.time()
 #===============================================================================================
-oepoll = OEPoll(cl)
+poll = LinePoll(cl)
 call = cl
 creator = ["u93073748b54ea2a3f93f42d7b1c08e44"]
 owner = ["u93073748b54ea2a3f93f42d7b1c08e44"]
@@ -142,7 +142,7 @@ wait = {
     "Ghost":False,   
     "unsend":True,
     "mention":"\n\nS̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n",
-    "Respontag":"ɛɧɧɧ ƙąŋɠ ¢ơιıı ɬąɠ ɱųιιų \b\n\n\bS̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n",
+    "Respontag":"ɛɧɧɧ ƙąŋɠ \b\n\n\bS̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n",
     "leave":"ცąყɛ ცąყɛ ʂąιąɱ ɖąrı ƙąɱı\ŋ\ŋS̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\ŋ\ŋ",
     "mention":"kk masuk jangan ngintip aja",
     "welcome":"h̾a̾i̾i̾i̾ s̾e̾l̾a̾m̾a̾t̾ b̾e̾r̾g̾a̾b̾u̾n̾g̾ m̾o̾g̾a̾ b̾e̾t̾a̾h̾ y̾a̾",
